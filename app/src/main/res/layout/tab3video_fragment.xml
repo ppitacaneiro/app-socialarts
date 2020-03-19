@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    style="@style/layoutPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/botonera">
+
+        <Button
+            android:id="@+id/grabarVideo"
+            android:drawableStart="@drawable/record"
+            android:text="@string/grabar_video"
+            style="@style/botonSecundario"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/subirVideo"
+            android:drawableStart="@drawable/upload"
+            android:text="@string/subir_video"
+            style="@style/botonSecundario"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textVideo"
+        android:layout_below="@id/botonera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_del_video"/>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/textVideo"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        style="@style/txtNegro"
+        android:id="@+id/textInfo"
+        android:layout_below="@id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eres_usuario_de_youtube"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInfo"
+        android:orientation="horizontal"
+        android:id="@+id/botoneraYoutube">
+
+        <EditText
+            android:id="@+id/url_youtube"
+            android:layout_weight="2"
+            android:hint="@string/introduce_la_url_del_video"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/okYoutube"
+            android:layout_weight="1"
+            android:text="GO"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

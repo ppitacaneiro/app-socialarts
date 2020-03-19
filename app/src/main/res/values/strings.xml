@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">SocialArts</string>
+    <string name="hombre">Hombre</string>
+    <string name="selecciona_fecha">Selecciona Fecha</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="introduzca_email">Introduzca email</string>
+    <string name="introduzca_password">Introduzca password</string>
+    <string name="introduzca_su_nombre">Introduzca su nombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="acepto_las_condiciones_de_uso">Acepto las condiciones de uso</string>
+    <string name="registarse">Registrarse</string>
+    <string name="indicar_nombre">Debes indicar tu nombre</string>
+    <string name="indicar_email">Debes indicar un email</string>
+    <string name="indicar_email_valido">Debes indicar un email válido</string>
+    <string name="indicar_password">Debes indicar un password</string>
+    <string name="pass_6_chars">La contraseña debe contener 6 caracteres al menos</string>
+    <string name="indicar_fecha">Debes indicar la fecha de nacimiento</string>
+    <string name="indicar_sexo">Debes indicar tu sexo</string>
+    <string name="condiciones">Debes aceptar las condiciones de uso</string>
+    <string name="registrado">Usuario Registrado</string>
+    <string name="usuario_existe">El usuario ya existe</string>
+    <string name="ano_incorrecto">Año incorrecto</string>
+    <string name="edad_minima">No cumples la edad mínima para usar la aplicación</string>
+    <string name="indica_tus_intereses">Indica tus intereses</string>
+    <string name="ok_label">OK</string>
+    <string name="salir_label">Salir</string>
+    <string name="limpiar_label">Limpiar</string>
+    <string name="indica_intereses">Debes indicarnos tus intereses</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+
+    <string-array name="intereses">
+        <item>Arquitectura</item>
+        <item>Diseño</item>
+        <item>Bellas Artes</item>
+        <item>Música</item>
+        <item>Cine</item>
+        <item>Teatro</item>
+        <item>Artesanía</item>
+        <item>Fotografía</item>
+    </string-array>
+    <string name="title_activity_navegador">SocialArts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nombre_del_proyecto">Nombre del proyecto</string>
+    <string name="descripcion">Descripción</string>
+    <string name="fecha_del_proyecto">Fecha del proyecto</string>
+    <string name="autor">Autor</string>
+    <string name="indica_el_genero_artistico_del_proyecto">Indica el Género Artistico</string>
+    <string name="seleccionar_genero">Seleccionar Género</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="alert_proyecto_nombre">El proyecto debe tener un nombre</string>
+    <string name="alert_fecha_creacion">Debes indicar la fecha de creación del proyecto</string>
+    <string name="alert_clasificar_proyecto">Debes seleccionar el género artistico para clasificar el proyecto</string>
+    <string name="alert_comprobando_datos">Comprobando Datos</string>
+    <string name="title_activity_add_recursos">AddRecursos</string>
+    <string name="tab_text_1">Audio</string>
+    <string name="tab_text_2">Imagen</string>
+    <string name="tab_text_3">Video</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seleccionar_imagen">Seleccionar</string>
+    <string name="subir_imagen">Subir Imagen</string>
+    <string name="error_upload_file">ERROR AL SUBIR EL FICHERO</string>
+    <string name="subiendo_img">Subiendo Imagen...</string>
+    <string name="imagen_subida_ok">Imagen Subida con Éxito</string>
+    <string name="error_subir_fichero">Error al Subir Fichero</string>
+    <string name="subiendo_imagen">Subiendo imagen...</string>
+    <string name="selecciona_imagen">Selecciona una Imagen</string>
+    <string name="proyecto_creado_ok">Proyecto Creado con éxito</string>
+    <string name="entrar">Entrar</string>
+    <string name="resgistro_usuario">Registro de Usuario</string>
+    <string name="registrando_usuario">Registrando Usuarios</string>
+    <string name="tit_registro_de_usuario">REGISTRO DE USUARIO</string>
+    <string name="crear_proyecto">Crear Proyecto</string>
+    <string name="max_chars_desc">La descripción no puede superar los 300 caracteres</string>
+    <string name="add_resources">Añadir Recursos</string>
+    <string name="nombre_de_la_imagen">Nombre de la imagen</string>
+    <string name="title_activity_ficha_proyecto">FichaProyecto</string>
+    <string name="info">Info</string>
+    <string name="fotos">Fotos</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video_success">Video subido con éxito</string>
+    <string name="uploading_video">Subiendo Video...</string>
+    <string name="subir_video">Subir Video</string>
+    <string name="introduce_la_url_de_tu_perfil">Introduce la id de tu perfil</string>
+    <string name="a_adir_canciones">Añadir canciones</string>
+    <string name="eres_usuario_de_hearthis_at_comparte_tu_m_sica">Eres usuario de hearthis.at? Comparte tu música!</string>
+    <string name="url_vacia">El campo URL esta vacio</string>
+    <string name="url_no_valida">URL no valida</string>
+    <string name="usuario_no_valido">Usuario no valido</string>
+    <string name="validando_usuario">Validando Usuario...</string>
+    <string name="no_encuentro_usuario">No se encuentra al usuario -> </string>
+    <string name="resurso_añadido_ok">Recurso añadido al proyecto</string>
+    <string name="grabar_video">Grabar Video</string>
+    <string name="nombre_del_video">Nombre del video</string>
+    <string name="eres_usuario_de_youtube">Eres usuario de Youtube ?</string>
+    <string name="introduce_la_url_del_video">Introduce la id del video</string>
+
+    <string name="player_error">Error inicializando YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="campo_no_vacio">El campo no puede estar vacio</string>
+    <string name="validando_video_YouTube">Validando Video de YouTube</string>
+    <string name="no_encontrado_videoyoutube">No encontramos el video solicitado en TouTube</string>
+    <string name="video_yotube_ok">Video guardado en la Base de datos</string>
+    <string name="procesando_videos">Procesando Videos...</string>
+    <string name="videos_en_youtube">VIDEOS EN YOUTUBE</string>
+    <string name="videos_del_usuario">VIDEOS DEL USUARIO</string>
+    <string name="mis_proyectos">Mis Proyectos</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="condiciones_de_uso">Condiciones de Uso</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="editar_datos_usuario">Editar Datos de Usuario</string>
+    <string name="editar_perfil_tit">EDITAR PERFIL</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="subir_audio">Subir Audio</string>
+    <string name="nombre_del_audio">Nombre del Audio</string>
+    <string name="select_audio_chooser">Selecciona Fichero de Audio</string>
+    <string name="subiendo_audio">Subiendo Audio...</string>
+    <string name="audio_upload_ok">Audio subido con éxito al Servidor</string>
+    <string name="audios_del_usuario">AUDIOS DEL USUARIO</string>
+    <string name="audios_hearthis">AUDIOS HEARTHIS</string>
+
+</resources>

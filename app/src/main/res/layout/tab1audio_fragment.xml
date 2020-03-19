@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/layoutPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/botoneraAudio">
+
+        <Button
+            android:id="@+id/selecSong"
+            android:drawableStart="@drawable/select"
+            android:text="@string/seleccionar"
+            style="@style/botonSecundario"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/subirAudio"
+            android:drawableStart="@drawable/upload"
+            android:text="@string/subir_audio"
+            style="@style/botonSecundario"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nombreArchivoAudio"
+        android:layout_below="@id/botoneraAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textAudio"
+        android:layout_below="@id/botoneraAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_del_audio"/>
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logohearthis"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eres_usuario_de_hearthis_at_comparte_tu_m_sica"
+        android:textAlignment="center"
+        style="@style/txtNegro"/>
+
+    <EditText
+        android:id="@+id/url_hearthis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/introduce_la_url_de_tu_perfil"
+        android:inputType="textUri"
+        android:textAlignment="center" />
+
+    <Button
+        style="@style/boton"
+        android:id="@+id/button_hearthis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a_adir_canciones"/>
+
+</LinearLayout>

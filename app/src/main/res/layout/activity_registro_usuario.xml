@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo_registro_de_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tit_registro_de_usuario"
+            style="@style/titulosSeccion"/>
+
+        <EditText
+            android:id="@+id/editTextNameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/caja"
+            android:hint="@string/introduzca_su_nombre"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/editTextEmailReg"
+            style="@style/caja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduzca_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPasswordReg"
+            style="@style/caja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/introduzca_password"
+            android:inputType="textPassword"/>
+
+        <RelativeLayout
+            android:paddingTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                style="@style/caja"
+                android:paddingLeft="10dp"
+                android:id="@+id/in_date"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:text="@string/fecha_de_nacimiento"/>
+
+            <ImageButton
+                android:src="@drawable/calendar"
+                android:id="@+id/btn_date"
+                android:background="@color/blanco"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/in_date"
+                android:layout_toRightOf="@+id/in_date"
+                android:layout_toEndOf="@+id/in_date"
+                android:layout_width="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:id="@+id/in_intereses"
+                android:maxLines="6"
+                android:paddingLeft="10dp"
+                style="@style/caja"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/indica_tus_intereses"/>
+
+            <ImageButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/rating"
+                android:background="@color/blanco"
+                android:id="@+id/btn_intereses"
+                android:layout_alignBottom="@+id/in_intereses"
+                android:layout_toRightOf="@+id/in_intereses"
+                android:layout_toEndOf="@+id/in_intereses"
+                android:text="@string/indica_tus_intereses" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <RadioGroup
+            android:paddingTop="25dp"
+            android:id="@+id/sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sexoHombre"
+                style="@style/caja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hombre"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/sexoMujer"
+                style="@style/caja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mujer"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <CheckBox android:id="@+id/checkCondiciones"
+            style="@style/caja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acepto_las_condiciones_de_uso"
+            android:checked="false"/>
+
+        <Button
+            android:id="@+id/buttonReg"
+            style="@style/boton"
+            android:text="@string/registarse"/>
+    </LinearLayout>
+</RelativeLayout>

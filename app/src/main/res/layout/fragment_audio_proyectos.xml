@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            style="@style/titulos"
+            android:id="@+id/txt_audios_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/audios_del_usuario"/>
+
+        <ListView
+            android:id="@+id/lv_audio_usuario"
+            android:layout_width="match_parent"
+            android:layout_below="@id/txt_audios_usuario"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+        </ListView>
+
+        <TextView
+            style="@style/titulos"
+            android:id="@+id/txt_audios_hearthis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_below="@+id/lv_audio_usuario"
+            android:gravity="center_vertical"
+            android:text="@string/audios_hearthis"/>
+
+        <ListView
+            android:id="@+id/lv_audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_audios_hearthis"
+            android:layout_marginTop="10dip">
+        </ListView>
+
+    </RelativeLayout>
+
+</ScrollView>

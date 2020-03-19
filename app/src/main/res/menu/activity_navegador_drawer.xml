@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/crear_proyect"
+            android:icon="@drawable/crearproyecto"
+            android:title="@string/crear_proyecto"/>
+        <item
+            android:id="@+id/mis_proyectos"
+            android:icon="@drawable/misproyectos"
+            android:title="@string/mis_proyectos"/>
+        <item
+            android:id="@+id/cerrar_sesion"
+            android:icon="@drawable/cerrarsesion"
+            android:title="@string/cerrar_sesion"/>
+    </group>
+</menu>

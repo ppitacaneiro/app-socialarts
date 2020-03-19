@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutPrincipal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        style="@style/titulos"
+        android:id="@+id/tvtituloProyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <TextView
+        style="@style/txt14spnegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CATEGORÍA"/>
+
+    <TextView
+        style="@style/txt14spgris"
+        android:id="@+id/tvgenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <TextView
+        style="@style/txt14spnegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUTOR"/>
+
+    <TextView
+        style="@style/txt14spgris"
+        android:id="@+id/tvautor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        style="@style/txt14spnegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPCIÓN"/>
+
+    <TextView
+        style="@style/txt14spgris"
+        android:id="@+id/tvdesc_proyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        style="@style/txt14spnegro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FECHA"/>
+
+    <TextView
+        style="@style/txt14spgris"
+        android:id="@+id/tvfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageButton
+        android:padding="20dp"
+        android:id="@+id/likebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        android:src="@drawable/buttonlike2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvVotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+</LinearLayout>

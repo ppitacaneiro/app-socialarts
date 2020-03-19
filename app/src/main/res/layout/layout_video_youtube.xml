@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_videoyoutube"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_titulo_ytube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_videoyoutube"
+        android:layout_margin="20dp"
+        style="@style/txt14spgris"/>
+
+    <TextView
+        android:id="@+id/tv_desc_ytube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_videoyoutube"
+        android:layout_below="@id/tv_titulo_ytube"
+        style="@style/txt14spgris"/>
+
+</RelativeLayout>

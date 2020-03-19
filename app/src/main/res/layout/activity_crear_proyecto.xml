@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layoutPrincipal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_proyecto"
+        style="@style/titulosSeccion"/>
+
+    <EditText
+        android:id="@+id/editTextNombreProyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_del_proyecto"
+        style="@style/caja"/>
+
+    <EditText
+        android:id="@+id/desc_proyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripcion"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        style="@style/caja"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autor"
+        style="@style/subTitulos"
+        />
+
+    <TextView
+        android:id="@+id/autorProyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/caja"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha_del_proyecto"
+        style="@style/subTitulos"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:id="@+id/in_date_proyect"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageButton
+            android:src="@drawable/calendar"
+            android:background="@color/blanco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selecciona_fecha"
+            android:id="@+id/btn_date_proyect"
+            android:layout_alignBottom="@+id/in_date_proyect"
+            android:layout_toRightOf="@+id/in_date_proyect"
+            android:layout_toEndOf="@+id/in_date_proyect"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indica_el_genero_artistico_del_proyecto"
+        style="@style/subTitulos"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:id="@+id/in_genero_proyect"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <ImageButton
+            android:src="@drawable/genero"
+            android:background="@color/blanco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccionar_genero"
+            android:id="@+id/btn_genero_proyect"
+            android:layout_alignBottom="@+id/in_genero_proyect"
+            android:layout_toRightOf="@+id/in_genero_proyect"
+            android:layout_toEndOf="@+id/in_genero_proyect"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonCrearProyecto"
+        style="@style/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/siguiente"/>
+
+</LinearLayout>

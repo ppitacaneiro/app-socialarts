@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/negro</item>
+        <item name="colorPrimaryDark">@color/negro</item>
+        <item name="colorAccent">@color/negro</item>
+        <item name="colorControlNormal">@color/negro</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+    <style name="boton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:background">@drawable/borde_redondo</item>
+    </style>
+
+    <style name="botonSecundario">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:background">@color/blanco</item>
+    </style>
+
+    <style name="layoutPrincipal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">20sp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/blanco</item>
+    </style>
+
+    <style name="titulosSeccion">
+        <item name="android:fontFamily">@font/adam</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+    <style name="subTitulos">
+        <item name="android:fontFamily">@font/adam</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+    <style name="caja">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="titulos" parent="titulosSeccion">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">10sp</item>
+    </style>
+
+    <style name="autor" parent="titulosSeccion">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+    <style name="txt14spgris" parent="titulosSeccion">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textColor">@color/gris</item>
+    </style>
+
+    <style name="txt14spnegro" parent="titulosSeccion">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+    <style name="genero" parent="autor">
+        <item name="android:textColor">@color/gris</item>
+    </style>
+
+    <style name="txtNegro">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+</resources>

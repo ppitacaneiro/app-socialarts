@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_videousuairo"
+        android:src="@drawable/videoclip"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        style="@style/txt14spgris"
+        android:id="@+id/tv_titulo_videousuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_videousuairo"
+        android:layout_margin="20dp" />
+
+</RelativeLayout>
